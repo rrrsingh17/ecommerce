@@ -3,8 +3,8 @@ from os import environ
 env = environ['ENV'].lower() if 'ENV' in environ else 'development'
 
 if env == "production":
-    from .production import *
+    from .production import *  # NOQA
 elif env == "staging":
-    from .staging import *
+    from .staging import *  # NOQA
 else:
-    from .local import *
+    from .local import *  # NOQA

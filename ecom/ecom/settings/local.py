@@ -1,4 +1,4 @@
-from .common import *
+from .common import *  # NOQA
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '@*hvrr99_9-8ehovqqapkl5l$45@_c6pvhm#5od-geiuun9v=h'
 
